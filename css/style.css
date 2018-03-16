@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-image: url("../assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  weight: 100vw;
+}
+nav{
+  background-color: black;
+  position:fixed;
+  top:0;
+  right:0;
+  width: 5em;
+  height: 100vh;
+}
+
+.burger img {
+  width : 60%;
+  height:auto;
+  margin-left: auto;
+	margin-right: auto;
+  display: block;
+  padding-top:10vh;
+}
+
+#facebook{
+  width:60%;
+  display: block;
+  margin-left: auto;
+	margin-right: auto;
+
+}
+
+.social-box{
+  padding-top: 10vh;
+}
+
+.social{
+  width : 40%;
+  height:auto;
+  margin-left: auto;
+	margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-name{
+  width:45vw;
+  padding-top:5vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-name :hover {
+  width:40vw;
+}
+
+.listen{
+  position:fixed;
+  width: 17vw;
+  top: 80%;
+  left: 41.5%;
+
+}
+.logo{
+  width:10vw;
+  padding-left :5%;
+  padding-top:5%;
+}
