@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+<head>
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>micheal</title>
+    <title>Micheal Noronha</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />   
+</head>
+<body>
+        <header onmousedown="return false">
+                <div class="logo">
+                        <img src="assets/logowhite.svg" alt="">
+                </div>
+                
+                <nav >
+                  <div class="burger">
+                    <img src="assets/menu.svg" alt="micheal menu">
+                    <div class="social-box" >
+                    <div class="social">
+                         <div id="instagram"><img src="assets/instagram.svg" alt="micheal social media"></div>
+                         <div id="youtube"><img src="assets/youtube.svg" alt="micheal social media"></div>
+                         <div id="twitter"><img src="assets/twitter.svg" alt="micheal social media"></div>
+                         <div id="facebook"><img src="assets/facebook.svg" alt="micheal social media"></div>
+                    </div><!--social -->
+                  </div><!--social box -->
+          
+                  </div>
+                </nav>
+              </header>
+
+             <!-- <div class="video">
+                  <video autoplay="true">
+                      <source src="assets/video.mp4" type="video/mp4">
+                  </video>
+              </div> -->
+
+              <div class="hero-text">
+                  Micheal Noronha
+              </div>
 
 
 
 
-    <header>
-      <nav>
-        <div class="burger">
-          <img src="assets/menu.svg" alt="micheal menu">
-          <div class="social-box" >
-          <div class="social">
-               <div id="instagram"><img src="assets/instagram.svg" alt="micheal social media"></div>
-               <div id="youtube"><img src="assets/youtube.svg" alt="micheal social media"></div>
-               <div id="twitter"><img src="assets/twitter.svg" alt="micheal social media"></div>
-               <div id="facebook"><img src="assets/facebook.svg" alt="micheal social media"></div>
-          </div><!--social -->
-        </div><!--social box -->
+              <div class="mini-player">
 
-        </div>
-      </nav>
-    </header>
+                   <div class="mini-cover">
 
-   <a href="index.html"><div class="logo">
-      <img src="assets/logowhite.svg" alt="">
-    </div>
-  </a> 
-      <div class="hero-name">
-        <img src="assets/name.svg" alt="micheal main head media text">
-      </div>
+                      <div class="cover-img"></div>
 
-      <a href="player.html"><div class="listen" >
-        <img src="assets/listen-button.svg" alt="micheal listen music button">
-      </div></a>
+                      <div class="cover-text">
+                        <span>MUSIC NAME</span>
+                      </div>
 
-    </body>
-    
+                   </div>
+
+                   <div class="music-controls">
+
+                    <div class="musicbuttons">
+                            <div class="pre-music"></div>
+                            <div class="play-music"></div>
+                            <div class="next-music"></div>
+                    </div>
+
+                      <div class="musicbar">
+                          <div class="defaultbar"></div>
+                          <div class="progressbar"></div>
+                      </div>
+
+                   </div>
+              </div>
+
+              <footer>
+                  <div class="footer">
+                      Micheal Noronha &COPY; 2018
+                  </div>
+              </footer>
+</body>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+<script src="javascripts/player.js"></script>
 </html>
