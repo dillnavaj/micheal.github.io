@@ -22,10 +22,16 @@
       z-index:-10;
   }
 */
+a{
+    text-decoration: none;
+}
 
+.heading{
+    text-decoration: none;
+    color:white;
+}
   .hero-text{
     text-decoration: none;
-
     text-align: center;
     font-size: 5vw;
     padding-top:27vh;
