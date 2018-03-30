@@ -4,7 +4,7 @@
 
   body {
     font-family:"centry-gothic", sans-serif;
-    background-image: url(../assets/background.jpeg);
+    background-image: url(../assets/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,8 +95,11 @@ a{
       color:white;
       position: fixed;
       bottom: 0;
+      height: 5vw;
      /* padding-bottom: 3vh;*/
       margin-bottom: 2.5vh;
+      flex-direction: row;
+      justify-content: space-around;
   }
 
 
@@ -147,12 +150,11 @@ a{
   }
 
  .music-controls{
-    padding-left: 17.7vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: .4vw;
+    padding-bottom: .5em;
  }
 
 .mini-cover{
@@ -181,7 +183,7 @@ a{
     background-color: white;
 }
 .progressbar{
-    width:20vw;
+    width:50%;
     height:.5vw;
     background-color: cornflowerblue;
     margin-top:-.5vw;
@@ -227,7 +229,7 @@ a{
     width:20vw;
     height:25vw;
     margin-left:15vw;
-    margin-top:5vw;
+    margin-top:13vh;
     z-index: -5;
 }
 .main-cover-bg{
@@ -269,7 +271,7 @@ a{
     overflow-x: hidden;
     height:25vw;
     width:40vw;
-    margin-top: 5vw;
+    margin-top:13vh;
     margin-left: 6vw;
     -webkit-box-shadow: inset 0 0 6px rgb(19, 19, 19);
 
@@ -346,4 +348,22 @@ a{
 .main-musiclist::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
+}
+
+
+/* listen button */
+
+.listen-button{
+    font-size: 30%;
+    width:20%;
+    height:auto;
+    background-color:#ff0081;
+    color:black;
+    border : none;
+    padding:.5em;
+    border-radius: .25em;
+}
+
+.listen-button:hover{
+    background-color:#ffff00;
 }
